@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ls *.mov | goku 'ios-vid "#{line}" "#{line.sub(".mov", ".mp4")}"' | sh
+
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ls | goku 'touch -t  "#{line.split(" ")[0]}" "./#{line}"' | sh
+ls | goku 'touch -mt "#{line.split(" ")[0]}" "./#{line}"' | sh
+

@@ -1,0 +1,10 @@
+#!/bin/bash -l
+
+# add-date-prefixes
+lowercase-extensions
+heic-to-jpg
+mov-to-mp4
+trash *.heic
+trash *.mov
+trash *.aae
+update-creation-date-from-filename
